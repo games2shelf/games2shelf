@@ -53,7 +53,7 @@ Desarrollo del servidor — Django REST API.
 
 <td width="220" align="center" valign="middle">
   <a href="https://github.com/games2shelf/backend">
-    <img src="https://opengraph.githubassets.com/1/games2shelf/backend" width="180">
+    <img src="https://opengraph.githubassets.com/1/games2shelf/frontend" width="180">
   </a>
 </td>
 
@@ -75,9 +75,9 @@ Desarrollo del cliente — React SPA.
 <td width="200" valign="center">
 
 <img src="https://img.shields.io/github/languages/code-size/games2shelf/frontend?style=flat-square" />
-<img src="https://img.shields.io/github/issues/games2shelf/backend?style=flat-square" /><br>
-<img src="https://img.shields.io/github/last-commit/games2shelf/backend?style=flat-square" /><br>
-<img src="https://img.shields.io/github/license/games2shelf/backend?style=flat-square" />
+<img src="https://img.shields.io/github/issues/games2shelf/frontend?style=flat-square" /><br>
+<img src="https://img.shields.io/github/last-commit/games2shelf/frontend?style=flat-square" /><br>
+<img src="https://img.shields.io/github/license/games2shelf/frontend?style=flat-square" />
 
 </td>
 
