@@ -1,0 +1,154 @@
+/**
+ * ============================================================================
+ * Brand colors
+ * ============================================================================
+ */
+
+/**
+ * Light theme palette.
+ */
+:root {
+    --md-primary-fg-color: #2563EB;
+    --md-primary-fg-color--light: #60A5FA;
+    --md-primary-fg-color--dark: #1D4ED8;
+
+    --md-accent-fg-color: #7C3AED;
+    --md-accent-fg-color--transparent: rgba(124, 58, 237, .12);
+}
+
+/**
+ * Dark theme palette.
+ */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #3B82F6;
+    --md-primary-fg-color--light: #60A5FA;
+
+    --md-accent-fg-color: #8B5CF6;
+    --md-accent-fg-color--transparent: rgba(139, 92, 246, .15);
+}
+
+/**
+ * Primary buttons.
+ */
+.md-button--primary {
+    background: linear-gradient(135deg, #2563EB, #7C3AED);
+    border: none;
+}
+
+.md-button--primary:hover {
+    filter: brightness(1.08);
+}
+
+/**
+ * Hyperlinks.
+ */
+.md-content a:hover {
+    color: #7C3AED;
+}
+
+/**
+ * Inline code.
+ */
+code {
+    color: #7C3AED;
+}
+
+[data-md-color-scheme="slate"] code {
+    color: #A78BFA;
+}
+
+/**
+ * Code blocks.
+ */
+.highlight {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/**
+ * Tables.
+ */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+
+/**
+ * Tip admonitions.
+ */
+.md-typeset .admonition.tip {
+    border-color: #7C3AED;
+}
+
+.md-typeset .admonition.tip > .admonition-title {
+    background: rgba(124,58,237,.12);
+}
+
+/**
+ * Text selection.
+ */
+::selection {
+    background: #335cb6;
+    color: white;
+}
+
+/**
+ * Scrollbar.
+ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#7C3AED, #2563EB);
+    border-radius: 20px;
+}
+
+
+
+/**
+ * Footer.
+ */
+:root .md-footer {
+    background: #F8FAFC;
+    color: #475569;
+}
+
+
+
+:root .md-footer a:hover {
+    font-weight:500;
+}
+
+/**
+ * Footer (dark theme).
+ */
+[data-md-color-scheme="slate"] .md-footer {
+    background: #111827;
+    color: #CBD5E1;
+}
+
+
+
+[data-md-color-scheme="slate"] .md-footer a:hover {
+    font-weight:500;
+}
+/**
+ * Logo shadow.
+ */
+.md-header__button img {
+    filter: drop-shadow(0 0 8px rgba(124,58,237,.4));
+}
+
+/**
+ * Active navigation items.
+ */
+.md-tabs__link--active,
+.md-nav__link--active,
+.md-nav__link[href][aria-current="true"] {
+    font-weight: 700;
+}
+
+
