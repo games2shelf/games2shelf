@@ -39,7 +39,7 @@ jobs:
       - name: Generate configs
         run: python config/generate.py
 
-      - name: Build docs
+      - name: Build spanish docs
         run: zensical build --config-file zensical.es.toml
 
 
